@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> -->
+
+    <!-- CSS EXTERNO -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>BuscaCEP | Dev Giovane Souza</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>BUSCAR CEP </h1>
+
+        <div>
+            <input placeholder="Informe o CEP aqui" id="cep" maxlength="8" onk />
+            <!-- <button type="submit">Buscar</button> -->
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <div>Rua (logradouro): <span id="rua"></span></div>
+
+        <div>Complemento: <span id="complemento"></span></div>
+
+        <div>Bairro: <span id="bairro"></span></div>
+
+        <div>Cidade: <span id="cidade"></span></div>
+
+        <div>Estado (UF): <span id="estado"></span></div>
+
+    </div>
+
+    <!-- API -->
+    <script src="js/api.js"></script>
+
+
+</body>
+
+</html>

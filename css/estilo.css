@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --color-primary: #007BFF;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+h1 {
+    color: #fff;
+}
+
+input {
+    width: 80vw;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+
+}
+
+
+.container {
+
+    border: 0.1rem solid var(--color-primary);
+    margin: 2rem;
+    padding: 2rem;
+
+    box-shadow: 0 0 0.5rem #000;
+}
+
+.container div {
+    color: var(--color-primary);
+    font-weight: bold;
+    padding: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+div span {
+    font-weight: normal;
+    color: #000;
+}
